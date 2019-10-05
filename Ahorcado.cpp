@@ -37,7 +37,7 @@ void busqueda(char *palabra, char *letra, char* palabravacia) {
 
 void imprimir(char* ini, char* final) {
 	for (char* p = ini; p != final; p++) {
-		cout << *p;
+		cout << *p << " ";
 	}
 }
 
